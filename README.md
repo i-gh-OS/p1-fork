@@ -16,21 +16,26 @@ Un repositorio para empezar a usar [git](https://git-scm.com/) y Github
 
 ### Pasos
 1) Creamos un fork de https://github.com/gitt-3-pat/p1 en mi cuenta de github. Esto descarga un respositorio copia no vinculado al original.
+
 2) Después clonamos el [repositorio fork de p1](https://github.com/i-gh-OS/p1-fork) en local (o codespace) para trabajar sobre él.
     ``git clone https://github.com/i-gh-OS/p1-fork``
     Observamos que por la terminal nos sale el siguiente log:
 
     ![alt text](logCloneP1-Fork.png)
+
 3) Miramos el estado actual del repositorio p1-fork usando ``git status``
     Puesto que no hemos modificado nada, nos sale el siguiente log:
 
     ![alt text](logStatus1.png)
+
 4) Mientras se realizaba la practica, se ha ido actualizando la memoria y se han incorporado dos archivos .png al repositorio. Escribiendo nuevamente el comando ``git status`` observamos el siguiente log que nos indica que hay archivos sin traquear y que el archivo [README.md](https://github.com/i-gh-OS/p1-fork/README.md) sobre el que estamos escribiendo se ha modifcado:
 
     ![alt text](logStatus2.png)
+
 5) Seleccionar estos cambios para que se guarden en el siguiente commit usando el comando ``git add`` y observamos que el status cambia de nuevo.
 
     ![alt text](logStatus3.png)
+
 6) Por último empaquetamos estos cambios que hemos seleccionado con ``git add`` usando el comando ``git conmmit``.
 
     ![alt text](primerCommit.png)
