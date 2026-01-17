@@ -21,12 +21,12 @@ Un repositorio para empezar a usar [git](https://git-scm.com/) y Github
     ``git clone https://github.com/i-gh-OS/p1-fork``
     Observamos que por la terminal nos sale el siguiente log:
 
-    ![alt text](logCloneP1-Fork.png|200)
+    ![alt text|200](logCloneP1-Fork.png)
 
 3) Miramos el estado actual del repositorio p1-fork usando ``git status``
     Puesto que no hemos modificado nada, nos sale el siguiente log:
 
-    ![alt text](logStatus1.png|200)
+    ![alt text|200](logStatus1.png)
 
 4) Mientras se realizaba la practica, se ha ido actualizando la memoria y se han incorporado dos archivos .png al repositorio. Escribiendo nuevamente el comando ``git status`` observamos el siguiente log que nos indica que hay archivos sin traquear y que el archivo [README.md](https://github.com/i-gh-OS/p1-fork/README.md) sobre el que estamos escribiendo se ha modifcado:
 
