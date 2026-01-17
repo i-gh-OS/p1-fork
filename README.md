@@ -27,17 +27,17 @@ Un repositorio para empezar a usar [git](https://git-scm.com/) y Github
     ![alt text](logStatus1.png)
 4) Mientras se realizaba la practica, se ha ido actualizando la memoria y se han incorporado dos archivos .png al repositorio. Escribiendo nuevamente el comando ``git status`` observamos el siguiente log que nos indica que hay archivos sin traquear y que el archivo [README.md](https://github.com/i-gh-OS/p1-fork/README.md) sobre el que estamos escribiendo se ha modifcado:
 
-![alt text](logStatus2.png)
+    ![alt text](logStatus2.png)
 5) Seleccionar estos cambios para que se guarden en el siguiente commit usando el comando ``git add`` y observamos que el status cambia de nuevo.
 
-![alt text](logStatus3.png)
+    ![alt text](logStatus3.png)
 6) Por último empaquetamos estos cambios que hemos seleccionado con ``git add`` usando el comando ``git conmmit``.
 
-![alt text](primerCommit.png)
+    ![alt text](primerCommit.png)
 
 7) Volcamos los commits que tenemos con los cambios al repositorio remoto (origin) para que los cambios aparezcan el nuestro fork en GitHub usando el comando ``git push origin main``. 
 
-![alt text](logPush1.png)
+    ![alt text](logPush1.png)
 
 A medida que vamos modificando desde nuestro ordenador los ficheros del repositorio, iremos repitiendo los pasos 3), 5) y 6) creando commits pequeños para traquear todo los cambios que hacemos.
 
