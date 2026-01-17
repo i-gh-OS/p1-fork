@@ -33,6 +33,8 @@ Para decidir que cambios individuales quiero que se empaqueten en el commit sigu
 ### Funcionamiento interno
 El archivo pasa de “modificado” a “staged”
 
+---
+
 ## git comit
 ### Significado
 Guarda los cambios preparados (git add) en el historial del repositorio local.
@@ -45,6 +47,8 @@ Para crear un punto del historial con:
 * Mensaje descriptivo
 y seguir un orden de los cambios realizados. 
 
+---
+
 ## git push
 ### Significado
 Envía los commits locales al repositorio remoto (origin).
@@ -55,6 +59,8 @@ Ver los cambios en el repositorio de GitHub en la nube. Es útil tenerlo en la n
 ### Funcionamiento interno
 * Sube los commits que no existían en el remoto
 * Actualiza la rama remota
+
+---
 
 ## git checkout
 ### Significado
