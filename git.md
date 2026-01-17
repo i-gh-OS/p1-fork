@@ -12,6 +12,8 @@ Para trabajar en modo local con el codigo del repositorio.
 * Descarga el historial de commits
 * Configura automáticamente el remoto ``origin`` apuntando al fork
 
+---
+
 ## git status
 ### Significado
 Muestra el estado actual del repositorio local.
@@ -22,6 +24,8 @@ Para saber:
 * Qué archivos has modificado
 * Qué archivos están preparados para commit
 * Si tienes commits pendientes de subir
+
+---
 
 ## git add
 ### Significado
