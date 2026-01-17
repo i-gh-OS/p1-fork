@@ -1,15 +1,18 @@
-ENTORNO DE DESARROLLO – PRÁCTICA
+ENTORNO DE DESARROLLO
+======================
 
 Sistema operativo:
 - Windows 11
 
-Java:
+Java
+-----
 $ java --version
 openjdk 17.0.17 2025-10-21
 OpenJDK Runtime Environment Temurin-17.0.17+10 (build 17.0.17+10)
 OpenJDK 64-Bit Server VM Temurin-17.0.17+10 (build 17.0.17+10, mixed mode, sharing)
 
-Maven:
+Maven
+-----
 $ mvn --version
 Apache Maven 3.9.12 (848fbb4bf2d427b72bdb2471c22fced7ebd9a7a1)
 Maven home: C:\Program Files\Apache\apache-maven-3.9.12
@@ -17,11 +20,35 @@ Java version: 17.0.17, vendor: Eclipse Adoptium, runtime: C:\Program Files\Java\
 Default locale: es_ES, platform encoding: Cp1252
 OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
 
-Visual Studio Code:
+Visual Studio Code
+------------------
 $ code --version
 1.106.2
 1e3c50d64110be466c0b4a45222e81d2c9352888
 x64
 
-Editor de código:
-- IntelliJ IDEA Community Edition instalado
+IntelliJ 
+--------
+$ PS C:\Program Files\JetBrains> cd '.\IntelliJ IDEA 2025.3.1.1\'
+PS C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1> ls
+
+
+    Directorio: C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        17/01/2026     21:23                bin
+d-----        17/01/2026     21:20                help
+d-----        17/01/2026     21:23                jbr
+d-----        17/01/2026     21:20                jdk-shared-indexes
+d-----        17/01/2026     21:22                lib
+d-----        17/01/2026     21:21                license
+d-----        17/01/2026     21:22                modules
+d-----        17/01/2026     21:22                plugins
+-a----        08/01/2026      6:01             16 build.txt
+-a----        08/01/2026      6:01           2051 Install-Windows-zip.txt
+-a----        08/01/2026      6:01         249854 product-info.json
+
+
+PS C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1.1>
