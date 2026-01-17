@@ -1,0 +1,76 @@
+COMANDOS BÁSICOS DE GIT
+======================
+
+GIT CLONE
+---------
+Significado:
+Crea una copia local del repositorio remoto en el ordenador.
+
+Utilidad:
+Permite trabajar en local con el código del repositorio.
+
+Funcionamiento interno:
+- Descarga todos los archivos del repositorio.
+- Descarga el historial de commits.
+- Configura automáticamente el remoto "origin" apuntando al fork.
+
+
+GIT STATUS
+----------
+Significado:
+Muestra el estado actual del repositorio local.
+
+Utilidad:
+Permite saber:
+- En qué rama se está trabajando.
+- Qué archivos han sido modificados.
+- Qué archivos están preparados para commit.
+- Si existen commits pendientes de subir al repositorio remoto.
+
+
+GIT ADD
+-------
+Significado:
+Añade archivos al área de preparación (staging area) antes de que formen parte de un commit.
+
+Utilidad:
+Permite decidir qué cambios concretos se incluirán en el siguiente commit y cuáles no.
+
+Funcionamiento interno:
+El archivo pasa del estado "modificado" al estado "staged".
+
+
+GIT COMMIT
+----------
+Significado:
+Guarda los cambios preparados con git add en el historial del repositorio local.
+En este punto los cambios todavía no se suben a GitHub.
+
+Utilidad:
+Permite crear un punto en el historial del proyecto con:
+- Autor
+- Fecha
+- Mensaje descriptivo
+Facilitando el seguimiento ordenado de los cambios realizados.
+
+
+GIT PUSH
+--------
+Significado:
+Envía los commits locales al repositorio remoto (origin).
+
+Utilidad:
+Permite que los cambios aparezcan en el repositorio de GitHub y puedan consultarse desde cualquier lugar.
+
+Funcionamiento interno:
+- Sube los commits que no existían en el repositorio remoto.
+- Actualiza la rama remota correspondiente.
+
+
+GIT CHECKOUT
+------------
+Significado:
+Permite cambiar de rama, crear ramas nuevas o restaurar archivos.
+
+Utilidad:
+Se utiliza para trabajar en ramas separadas por versiones, funcionalidades o personas antes de integrarlas en la versión estable.
