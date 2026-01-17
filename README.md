@@ -20,37 +20,37 @@ Previamente a la realización de la práctica se ha investigado sobre la funcion
     ``git clone https://github.com/i-gh-OS/p1-fork``
     Observamos que por la terminal nos sale el siguiente log:
 
-    ![alt text|200](logCloneP1-Fork.png)
+    ![alt text|200](imagenes/logCloneP1-Fork.png)
 
 3) Miramos el estado actual del repositorio p1-fork usando ``git status``
     Puesto que no hemos modificado nada, nos sale el siguiente log:
 
-    ![alt text|100](logStatus1.png)
+    ![alt text|100](imagenes/logStatus1.png)
 
 4) Mientras se realizaba la practica, se ha ido actualizando la memoria y se han incorporado dos archivos .png al repositorio. Escribiendo nuevamente el comando ``git status`` observamos el siguiente log que nos indica que hay archivos sin traquear y que el archivo [README.md](https://github.com/i-gh-OS/p1-fork/README.md) sobre el que estamos escribiendo se ha modifcado:
 
-    ![alt text](logStatus2.png)
+    ![alt text](imagenes/logStatus2.png)
 
 5) Seleccionar estos cambios para que se guarden en el siguiente commit usando el comando ``git add`` y observamos que el status cambia de nuevo.
 
-    ![alt text](logStatus3.png)
+    ![alt text](imagenes/logStatus3.png)
 
 6) Por último empaquetamos estos cambios que hemos seleccionado con ``git add`` usando el comando ``git conmmit``.
 
-    ![alt text](primerCommit.png)
+    ![alt text](imagenes/primerCommit.png)
 
 7) Volcamos los commits que tenemos con los cambios al repositorio remoto (origin) para que los cambios aparezcan el nuestro fork en GitHub usando el comando ``git push origin main``. 
 
-    ![alt text](logPush1.png)
+    ![alt text](imagenes/logPush1.png)
 
 A medida que vamos modificando desde nuestro ordenador los ficheros del repositorio, iremos repitiendo los pasos 3), 5), 6) y 7) para tener constancia de todo los cambios que hacemos.
 
 8) Si queremos crear y cambiarnos a otra rama para trabajar en ella sin alterar el *main* usamos el comando ``git checkout -b {nombre rama}``. 
 
-    ![alt text](logCreacionRama.png)
+    ![alt text](imagenes/logCreacionRama.png)
 
     Si ya tenemos otra rama creada y solo queremos movernos a ella basta con usar ``git checkout {nombre rama}``. 
-    ![alt text](logVueltaMain.png)
+    ![alt text](imagenes/logVueltaMain.png)
 
 #### Resumen comandos git utilizados
 
