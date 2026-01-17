@@ -21,7 +21,7 @@ Un repositorio para empezar a usar [git](https://git-scm.com/) y Github
     ``git clone https://github.com/i-gh-OS/p1-fork``
     Observamos que por la terminal nos sale el siguiente log:
 
-    ![alt text](logCloneP1-Fork.png)
+    ![alt text](logCloneP1-Fork.png|200)
 
 3) Miramos el estado actual del repositorio p1-fork usando ``git status``
     Puesto que no hemos modificado nada, nos sale el siguiente log:
@@ -50,7 +50,7 @@ A medida que vamos modificando desde nuestro ordenador los ficheros del reposito
 
     ![alt text](logCreacionRama.png)
 
-Si ya tenemos otra rama creada y solo queremos movernos a ella basta con usar ``git checkout {nombre rama}``. 
+    Si ya tenemos otra rama creada y solo queremos movernos a ella basta con usar ``git checkout {nombre rama}``. 
     ![alt text](logVueltaMain.png)
 
 
