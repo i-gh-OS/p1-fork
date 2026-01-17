@@ -26,7 +26,7 @@ Un repositorio para empezar a usar [git](https://git-scm.com/) y Github
 3) Miramos el estado actual del repositorio p1-fork usando ``git status``
     Puesto que no hemos modificado nada, nos sale el siguiente log:
 
-    ![alt text](logStatus1.png)
+    ![alt text](logStatus1.png|200)
 
 4) Mientras se realizaba la practica, se ha ido actualizando la memoria y se han incorporado dos archivos .png al repositorio. Escribiendo nuevamente el comando ``git status`` observamos el siguiente log que nos indica que hay archivos sin traquear y que el archivo [README.md](https://github.com/i-gh-OS/p1-fork/README.md) sobre el que estamos escribiendo se ha modifcado:
 
