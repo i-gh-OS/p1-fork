@@ -12,7 +12,7 @@
 Previamente a la realización de la práctica se ha investigado sobre la funcionalidad y modo de uso de algunos comandos básicos: [Explicación Comandos Básicos Git](git.txt) 
 
 ### Pasos en el uso de los comandos
-<i> A continuación se describirán la secuencia de la práctica realizada sobre Git y GitHub
+> ℹ️ A continuación se describirán la secuencia de la práctica realizada sobre Git y GitHub
 
 1) Creamos un fork de https://github.com/gitt-3-pat/p1 en nuestra cuenta de github. Esto descarga un respositorio copia no vinculado al original.
 
@@ -25,7 +25,7 @@ Previamente a la realización de la práctica se ha investigado sobre la funcion
 3) Miramos el estado actual del repositorio p1-fork usando ``git status``
     Puesto que no hemos modificado nada, nos sale el siguiente log:
 
-    ![alt text|200](logStatus1.png)
+    ![alt text|100](logStatus1.png)
 
 4) Mientras se realizaba la practica, se ha ido actualizando la memoria y se han incorporado dos archivos .png al repositorio. Escribiendo nuevamente el comando ``git status`` observamos el siguiente log que nos indica que hay archivos sin traquear y que el archivo [README.md](https://github.com/i-gh-OS/p1-fork/README.md) sobre el que estamos escribiendo se ha modifcado:
 
