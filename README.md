@@ -8,14 +8,13 @@
 
 
 ## Git y GitHub
-### Significado comandos
-* *git clone:* genera una copia local de un repositorio
-* *git status:* 
 
-Un repositorio para empezar a usar [git](https://git-scm.com/) y Github
+Previamente a la realización de la práctica se ha investigado sobre la funcionalidad y modo de uso de algunos comandos básicos: [Explicación Comandos Básicos Git](git.txt) 
 
-### Pasos
-1) Creamos un fork de https://github.com/gitt-3-pat/p1 en mi cuenta de github. Esto descarga un respositorio copia no vinculado al original.
+### Pasos en el uso de los comandos
+<i> A continuación se describirán la secuencia de la práctica realizada sobre Git y GitHub
+
+1) Creamos un fork de https://github.com/gitt-3-pat/p1 en nuestra cuenta de github. Esto descarga un respositorio copia no vinculado al original.
 
 2) Después clonamos el [repositorio fork de p1](https://github.com/i-gh-OS/p1-fork) en local (o codespace) para trabajar sobre él.
     ``git clone https://github.com/i-gh-OS/p1-fork``
@@ -53,24 +52,18 @@ A medida que vamos modificando desde nuestro ordenador los ficheros del reposito
     Si ya tenemos otra rama creada y solo queremos movernos a ella basta con usar ``git checkout {nombre rama}``. 
     ![alt text](logVueltaMain.png)
 
-
-## ¿Como probar en la nube?
-
-[Github-Codespaces](https://github.com/features/codespaces)
-
-## Comandos git básicos
+#### Resumen comandos git utilizados
 
 ```
-git clone https://github.com/gitt-3-pat/p1
+git clone {dirección repositorio}
 git status
 git add .
-git commit -m "TU MENSAJE"
+git commit -m "{mensaje}"
 git push
 
-git checkout -b feature/1
+git checkout -b {nombre rama}
 git checkout main
 ```
+---
 
-## ¿Cómo escribir un README.md con formato?
-
-[Github Markdown](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+## Entorno de desarrollo Java
