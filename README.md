@@ -44,7 +44,15 @@ Un repositorio para empezar a usar [git](https://git-scm.com/) y Github
 
     ![alt text](logPush1.png)
 
-A medida que vamos modificando desde nuestro ordenador los ficheros del repositorio, iremos repitiendo los pasos 3), 5) y 6) creando commits pequeños para traquear todo los cambios que hacemos.
+A medida que vamos modificando desde nuestro ordenador los ficheros del repositorio, iremos repitiendo los pasos 3), 5), 6) y 7) para tener constancia de todo los cambios que hacemos.
+
+8) Si queremos crear y cambiarnos a otra rama para trabajar en ella sin alterar el *main* usamos el comando ``git checkout -b {nombre rama}``. 
+
+    ![alt text](logCreacionRama.png)
+
+Si ya tenemos otra rama creada y solo queremos movernos a ella basta con usar ``git checkout {nombre rama}``. 
+    ![alt text](logVueltaMain.png)
+
 
 ## ¿Como probar en la nube?
 
