@@ -1,5 +1,17 @@
 # Práctica 1
 
+**Nombre:** Irene Morales Pérez
+
+**Curso:** 3º GITT+BA 
+
+**Fecha:** 17/01/2026
+
+
+## Git y GitHub
+### Significado comandos
+* *git clone:* genera una copia local de un repositorio
+* *git status:* 
+
 Un repositorio para empezar a usar [git](https://git-scm.com/) y Github
 
 ## ¿Como probar en la nube?
