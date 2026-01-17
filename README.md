@@ -10,7 +10,7 @@
 
 ## Git y GitHub
 
-Previamente a la realización de la práctica se ha investigado sobre la funcionalidad y modo de uso de algunos comandos básicos: [Explicación Comandos Básicos Git](git.txt) 
+Previamente a la realización de la práctica se ha investigado sobre la funcionalidad y modo de uso de algunos comandos básicos: [Explicación Comandos Básicos Git](git.md) 
 
 ### Pasos en el uso de los comandos
 > ℹ️ A continuación se describirá la secuencia de pasos seguidos en la práctica realizada sobre Git y GitHub
