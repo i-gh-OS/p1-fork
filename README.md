@@ -10,27 +10,27 @@
 
 ## Git y GitHub
 
-Previamente a la realización de la práctica se ha investigado sobre la funcionalidad y modo de uso de algunos comandos básicos: [Explicación Comandos Básicos Git](git.md) 
+Previamente a la realización de la práctica se ha investigado sobre la funcionalidad y modo de uso de algunos comandos básicos: [Explicación Comandos Básicos Git](git.txt) 
 
 ### Pasos en el uso de los comandos
 > ℹ️ A continuación se describirá la secuencia de pasos seguidos en la práctica realizada sobre Git y GitHub
 
-1) Creamos un fork de https://github.com/gitt-3-pat/p1 en nuestra cuenta de github. Esto descarga un respositorio copia no vinculado al original.
+1) Creamos un fork de https://github.com/gitt-3-pat/p1 en nuestra cuenta de GitHub. Esto descarga un repositorio copia no vinculado al original.
 
 2) Después clonamos el [repositorio fork de p1](https://github.com/i-gh-OS/p1-fork) en local (o codespace) para trabajar sobre él.
     ``git clone https://github.com/i-gh-OS/p1-fork``.
 
     Observamos que por la terminal nos sale el siguiente log:
 
-    ![alt text|200](imagenes/logCloneP1-Fork.png)
+    ![alt text](imagenes/logCloneP1-Fork.png)
 
 3) Miramos el estado actual del repositorio p1-fork usando ``git status``.
 
     Puesto que no hemos modificado nada, nos sale el siguiente log:
 
-    ![alt text|100](imagenes/logStatus1.png)
+    ![alt text](imagenes/logStatus1.png)
 
-4) Mientras se realizaba la practica, se ha ido actualizando la memoria y se han incorporado archivos .png al repositorio. Escribiendo nuevamente el comando ``git status`` observamos el siguiente log que nos indica que hay archivos sin traquear y que el archivo [README.md](https://github.com/i-gh-OS/p1-fork/README.md) sobre el que estamos escribiendo se ha modifcado:
+4) Mientras se realizaba la practica, se ha ido actualizando la memoria y se han incorporado archivos .png al repositorio. Escribiendo nuevamente el comando ``git status`` observamos el siguiente log que nos indica que hay archivos sin seguimiento y que el archivo [README.md](https://github.com/i-gh-OS/p1-fork/README.md) sobre el que estamos escribiendo se ha modificado:
 
     ![alt text](imagenes/logStatus2.png)
 
@@ -38,7 +38,7 @@ Previamente a la realización de la práctica se ha investigado sobre la funcion
 
     ![alt text](imagenes/logStatus3.png)
 
-6) Empaquetamos estos cambios que hemos seleccionado con ``git add`` usando el comando ``git conmmit``.
+6) Empaquetamos estos cambios que hemos seleccionado con ``git add`` usando el comando ``git commit``.
 
     ![alt text](imagenes/primerCommit.png)
 
@@ -71,7 +71,7 @@ git checkout main
 ---
 
 ## Entorno de desarrollo Java
-Para realizar esta parte de la practica se han comprobado inicialmente las versiones de Java, Maven y VSC mediante los siguientes comandos ejecutados en la terminal:
+Para realizar esta parte de la práctica se han comprobado inicialmente las versiones de Java, Maven y Visual Studio Code mediante los siguientes comandos ejecutados en la terminal:
 
 ```
 java --version
