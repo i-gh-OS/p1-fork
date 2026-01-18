@@ -72,14 +72,18 @@ git checkout main
 
 ## Entorno de desarrollo Java
 Para realizar esta parte de la practica se han comprobado inicialmente las versiones de Java, Maven y VSC mediante los siguientes comandos ejecutados en la terminal:
+
 ```
 java --version
 mvn --version
 code --version
 ```
-Vemos que la versión que teniamos de Java era la 23 y puesto que nos pedían la 17, nos la descaramos y subimos su path de prioridad en las variables de entorno del sistema.
-Posteriormente descargamos la aplicación Maven y la añadimos al path de las variables de entorno del sistema.
-Comprobamos de nuevo en la terminal que ahora sí estaban descargadas y que la versión que nos salía de Java era la 17.
-Visual Studio Code ya la teniamos instalada.
 
-Por último nos descargamos el ejecutable de InteliJ IDEA y pudimos abrir la aplicaciñon sin problema.
+En un primer momento, se observó que la versión instalada de Java era la 23. Dado que en el enunciado de la práctica se solicita específicamente Java 17, se procedió a la instalación de dicha versión y a la modificación de las variables de entorno del sistema, dando prioridad a su ruta en el `PATH`.
+
+Posteriormente, se descargó e instaló Apache Maven, añadiendo su directorio `bin` a la variable de entorno `PATH` del sistema. Tras esta configuración, se comprobó nuevamente en la terminal que Maven funcionaba correctamente y que utilizaba Java 17 como entorno de ejecución.
+
+Visual Studio Code ya se encontraba instalado y operativo en el sistema.
+
+Por último, se descargó e instaló IntelliJ IDEA, verificando que la aplicación se abría y funcionaba correctamente.
+
