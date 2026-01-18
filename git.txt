@@ -14,6 +14,14 @@ Funcionamiento interno:
 - Descarga el historial de commits.
 - Configura automáticamente el remoto "origin" apuntando al fork.
 
+Log ejemplo (captura en la memoria de la practica):
+    Cloning into 'p1-fork'...
+    remote: Counting objects: 100% (4/4), done.
+    remote: Compressing objects: 100% (3/3), done.
+    remote: Total 9 (delta 1), reused 0 (delta 0), pack-reused 5
+    Receiving objects: 100% (9/9), done.
+    Resolving deltas: 100% (1/1), done.
+
 
 GIT STATUS
 ----------
@@ -27,6 +35,19 @@ Permite saber:
 - Qué archivos están preparados para commit.
 - Si existen commits pendientes de subir al repositorio remoto.
 
+Log ejemplo – repositorio limpio (captura en la memoria de la practica):
+    On branch main
+    Your branch is up to date with 'origin/main'.
+    nothing to commit, working tree clean
+
+Log ejemplo – cambios detectados (captura en la memoria de la practica):
+    Changes not staged for commit:
+    modified: README.md
+
+    Untracked files:
+    logCloneP1-Fork.png
+    logStatus1.png
+
 
 GIT ADD
 -------
@@ -38,6 +59,13 @@ Permite decidir qué cambios concretos se incluirán en el siguiente commit y cu
 
 Funcionamiento interno:
 El archivo pasa del estado "modificado" al estado "staged".
+
+Log ejemplo (captura en la memoria de la practica):
+    Changes to be committed:
+    modified: README.md
+    new file: logCloneP1-Fork.png
+    new file: logStatus1.png
+    new file: logStatus2.png
 
 
 GIT COMMIT
@@ -53,6 +81,13 @@ Permite crear un punto en el historial del proyecto con:
 - Mensaje descriptivo
 Facilitando el seguimiento ordenado de los cambios realizados.
 
+Log ejemplo (captura en la memoria de la practica):
+    [main 85447d9] README actualizado hasta antes del primer commit
+    4 files changed, 12 insertions(+)
+    create mode 100644 logCloneP1-Fork.png
+    create mode 100644 logStatus1.png
+    create mode 100644 logStatus2.png
+
 
 GIT PUSH
 --------
@@ -66,6 +101,15 @@ Funcionamiento interno:
 - Sube los commits que no existían en el repositorio remoto.
 - Actualiza la rama remota correspondiente.
 
+Log ejemplo (captura en la memoria de la practica):
+    Enumerating objects: 13, done.
+    Counting objects: 100% (13/13), done.
+    Delta compression using up to 12 threads
+    Compressing objects: 100% (11/11), done.
+    Writing objects: 100% (11/11), done.
+    To https://github.com/i-gh-OS/p1-fork
+    1de0c60..714e5b5  main -> main
+
 
 GIT CHECKOUT
 ------------
@@ -74,3 +118,10 @@ Permite cambiar de rama, crear ramas nuevas o restaurar archivos.
 
 Utilidad:
 Se utiliza para trabajar en ramas separadas por versiones, funcionalidades o personas antes de integrarlas en la versión estable.
+
+Log ejemplo – creación de rama (captura en la memoria de la practica):
+    Switched to a new branch 'otra-rama'
+
+Log ejemplo – vuelta a main (captura en la memoria de la practica):
+    Switched to branch 'main'
+    Your branch is up to date with 'origin/main'.
