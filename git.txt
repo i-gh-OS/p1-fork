@@ -1,76 +1,74 @@
-COMANDOS BÁSICOS DE GIT
-======================
+# COMANDOS BÁSICOS:
 
-GIT CLONE
----------
-Significado:
-Crea una copia local del repositorio remoto en el ordenador.
+## git clone
+### Significado
+Crea copia local de repositorio remoto en mi ordenador.
 
-Utilidad:
-Permite trabajar en local con el código del repositorio.
+### Utilidad
+Para trabajar en modo local con el codigo del repositorio.
 
-Funcionamiento interno:
-- Descarga todos los archivos del repositorio.
-- Descarga el historial de commits.
-- Configura automáticamente el remoto "origin" apuntando al fork.
+### Funcionamiento interno
+* Descarga todos los archivos
+* Descarga el historial de commits
+* Configura automáticamente el remoto ``origin`` apuntando al fork
 
+---
 
-GIT STATUS
-----------
-Significado:
+## git status
+### Significado
 Muestra el estado actual del repositorio local.
 
-Utilidad:
-Permite saber:
-- En qué rama se está trabajando.
-- Qué archivos han sido modificados.
-- Qué archivos están preparados para commit.
-- Si existen commits pendientes de subir al repositorio remoto.
+### Utilidad
+Para saber:
+* En qué rama estás
+* Qué archivos has modificado
+* Qué archivos están preparados para commit
+* Si tienes commits pendientes de subir
 
+---
 
-GIT ADD
--------
-Significado:
-Añade archivos al área de preparación (staging area) antes de que formen parte de un commit.
+## git add
+### Significado
+Añade archivos al área de preparación (staging area) antes de que vayan al próximo commit.
 
-Utilidad:
-Permite decidir qué cambios concretos se incluirán en el siguiente commit y cuáles no.
+### Utilidad
+Para decidir que cambios individuales quiero que se empaqueten en el commit siguiente y cuales no.
 
-Funcionamiento interno:
-El archivo pasa del estado "modificado" al estado "staged".
+### Funcionamiento interno
+El archivo pasa de “modificado” a “staged”
 
+---
 
-GIT COMMIT
-----------
-Significado:
-Guarda los cambios preparados con git add en el historial del repositorio local.
-En este punto los cambios todavía no se suben a GitHub.
+## git comit
+### Significado
+Guarda los cambios preparados (git add) en el historial del repositorio local.
+Aquí todavía no se sube nada a GitHub, el commit es local.
 
-Utilidad:
-Permite crear un punto en el historial del proyecto con:
-- Autor
-- Fecha
-- Mensaje descriptivo
-Facilitando el seguimiento ordenado de los cambios realizados.
+### Utilidad
+Para crear un punto del historial con:
+* Autor
+* Fecha
+* Mensaje descriptivo
+y seguir un orden de los cambios realizados. 
 
+---
 
-GIT PUSH
---------
-Significado:
+## git push
+### Significado
 Envía los commits locales al repositorio remoto (origin).
 
-Utilidad:
-Permite que los cambios aparezcan en el repositorio de GitHub y puedan consultarse desde cualquier lugar.
+### Utilidad
+Ver los cambios en el repositorio de GitHub en la nube. Es útil tenerlo en la nube para acceder a los cambios desde cualquier sitio cuando no tenemos el ordenador con los cambios locales.
 
-Funcionamiento interno:
-- Sube los commits que no existían en el repositorio remoto.
-- Actualiza la rama remota correspondiente.
+### Funcionamiento interno
+* Sube los commits que no existían en el remoto
+* Actualiza la rama remota
 
+---
 
-GIT CHECKOUT
-------------
-Significado:
-Permite cambiar de rama, crear ramas nuevas o restaurar archivos.
+## git checkout
+### Significado
+Crea ramas nuevas, cambia a ellas o restaura archivos.
 
-Utilidad:
-Se utiliza para trabajar en ramas separadas por versiones, funcionalidades o personas antes de integrarlas en la versión estable.
+### Utilidad
+Para tener ramas diferenciadas por personas o versiones antes de la versión estable.
